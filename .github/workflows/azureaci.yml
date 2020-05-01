@@ -47,4 +47,4 @@ jobs:
             cpu: 2
             memory: 8
             ports: 8888
-          
+            command-line: "/opt/conda/bin/jupyter lab --notebook-dir=/opt/notebooks --ip='*' --port=8888 --no-browser --allow-root"
