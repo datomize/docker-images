@@ -44,3 +44,7 @@ jobs:
             registry-password: ${{ secrets.REGISTRY_PASSWORD }}
             name: aci-jupyter
             location: 'west europe'
+            cpu: 2
+            memory: 8
+            ports: 8888
+          
